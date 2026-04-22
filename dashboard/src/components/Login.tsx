@@ -8,9 +8,9 @@ export const Login: React.FC<LoginProps> = ({ onLogin }) => {
   const handleGoogleLogin = () => {
     // Simulated Google Login
     const mockUser = {
-      name: 'HR Admin',
-      email: 'admin@experthire.ai',
-      avatar: 'https://ui-avatars.com/api/?name=HR+Admin&background=4f46e5&color=fff'
+      name: 'Structural Biologist',
+      email: 'lab@tp53-sve.res',
+      avatar: 'https://ui-avatars.com/api/?name=Strucure+Bio&background=0284c7&color=fff'
     }
     onLogin(mockUser)
   }
@@ -18,9 +18,9 @@ export const Login: React.FC<LoginProps> = ({ onLogin }) => {
   return (
     <div className="login-screen">
       <div className="login-card">
-        <div className="logo-icon large">EH</div>
-        <h1>ExpertHire Portal</h1>
-        <p>AI-Powered People Operations & Talent Intelligence</p>
+        <div className="logo-icon large">p53</div>
+        <h1>TP53-SVE Portal</h1>
+        <p>Structural Variation Engine for Pathogenicity Prediction</p>
         
         <button className="google-btn" onClick={handleGoogleLogin}>
           <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google" />

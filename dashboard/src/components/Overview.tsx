@@ -3,11 +3,11 @@ import React from 'react'
 export const Overview: React.FC = () => {
   const kpis = [
     { label: 'Batch Rank', value: '1629' },
-    { label: 'Behavioural Score', value: '59' },
-    { label: 'Confidence Score', value: '59' },
-    { label: 'Interviews Completed', value: '20' },
-    { label: 'Readiness Score', value: '21' },
-    { label: 'Resume Score', value: '69' },
+    { label: 'SASA Change', value: '+420' },
+    { label: 'Kan Probability', value: '0.94' },
+    { label: 'Variants Analyzed', value: '128' },
+    { label: 'Mean Pathogenicity', value: '0.62' },
+    { label: 'Model Confidence', value: '0.98' },
   ]
 
   return (
@@ -30,11 +30,11 @@ export const Overview: React.FC = () => {
 
       <div className="g2">
         <div className="card">
-          <h3><span className="ico">📉</span> Areas of Improvement</h3>
+          <h3><span className="ico">🧬</span> Biological Insights</h3>
           <ul className="improvement-list">
-            <li>Review Technical Fundamentals in Data Structures.</li>
-            <li>Improve confidence during Mock Interviews.</li>
-            <li>Optimize resume for 'Software Engineer' roles.</li>
+            <li>Verify Zinc-binding pocket displacement stability.</li>
+            <li>Refine SASA exposure thresholds for non-DBD variants.</li>
+            <li>Analyze allosteric rewiring in the tetramer interface.</li>
           </ul>
         </div>
         

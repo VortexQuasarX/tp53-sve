@@ -2,18 +2,16 @@ import { useState } from 'react'
 import './index.css'
 import { Login } from './components/Login'
 import { Overview } from './components/Overview'
-import { AttritionPredictor } from './components/AttritionPredictor'
-import { InterviewIntelligence } from './components/InterviewIntelligence'
 import { Leaderboard } from './components/Leaderboard'
 
 type TabId = 'dashboard' | 'resume' | 'interviews' | 'leaderboard' | 'retention'
 
 const TABS: { id: TabId; label: string; icon: string }[] = [
-  { id: 'dashboard', label: 'Dashboard', icon: '🏠' },
-  { id: 'resume', label: 'Resume Optimisation', icon: '📄' },
-  { id: 'interviews', label: 'Interviews', icon: '🤝' },
-  { id: 'leaderboard', label: 'Leaderboard', icon: '🏆' },
-  { id: 'retention', label: 'Retention AI', icon: '🛡️' },
+  { id: 'dashboard', label: 'Triage Overview', icon: '🧬' },
+  { id: 'structure', label: '3D Structure View', icon: '🔬' },
+  { id: 'kan', label: 'KAN Explainability', icon: '🧠' },
+  { id: 'leaderboard', label: 'Variant Ranking', icon: '🏆' },
+  { id: 'vaccine', label: 'mRNA Pipeline', icon: '🧪' },
 ]
 
 export default function App() {
@@ -29,8 +27,8 @@ export default function App() {
       {/* Sidebar */}
       <div className="sidebar">
         <div className="sidebar-logo">
-          <div className="logo-icon">EH</div>
-          <span>EXPERT HIRE</span>
+          <div className="logo-icon">p53</div>
+          <span>TP53-SVE</span>
         </div>
         
         <div className="nav-list">
@@ -60,20 +58,18 @@ export default function App() {
       {/* Main Content */}
       <div className="main-viewport">
         <header className="main-header">
-          <div className="breadcrumb">Dashboard / {TABS.find(t => t.id === tab)?.label}</div>
-          <button className="primary-btn">Take Interview</button>
+          <div className="breadcrumb">TP53-SVE / {TABS.find(t => t.id === tab)?.label}</div>
+          <button className="primary-btn">Rerun Analysis</button>
         </header>
 
         <div className="content-area">
           {tab === 'dashboard' && <Overview />}
-          {tab === 'retention' && <AttritionPredictor />}
-          {tab === 'interviews' && <InterviewIntelligence />}
           {tab === 'leaderboard' && <Leaderboard />}
           {/* Other tabs placeholder */}
-          {['resume'].includes(tab) && (
+          {['structure', 'kan', 'vaccine'].includes(tab) && (
             <div className="placeholder-view">
               <h2>{TABS.find(t => t.id === tab)?.label}</h2>
-              <p>Module integration in progress...</p>
+              <p>Scientific module integration in progress...</p>
             </div>
           )}
         </div>

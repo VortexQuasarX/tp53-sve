@@ -48,6 +48,14 @@ pip install -r requirements.txt
 streamlit run antigravity_webapp.py
 ```
 
+## 📦 External Data Hosting (1.3GB)
+
+To keep this repository lightweight, the full AlphaFold3 structural database (128 variants, ~1.3GB) is hosted externally. 
+
+1. **Download**: [Placeholder: Link to Google Drive / Zenodo]
+2. **Setup**: Extracted structural files should be placed in `data/structures/`.
+3. **Reproducibility**: Once the data is present, you can rerun the full Phase 1-3 pipeline using `src/utils/run_full_pipeline.py`.
+
 ---
 
 ## 📊 Key Results
@@ -62,6 +70,20 @@ streamlit run antigravity_webapp.py
 
 For detailed methodology, see the final research manuscript:
 [TP53_SVE_ULTIMATE_RESEARCH_PAPER.md](docs/manuscripts/TP53_SVE_ULTIMATE_RESEARCH_PAPER.md)
+
+## 🎓 Citation
+
+If you use this software or the Structural Pathogenicity Index (SPI) in your research, please cite:
+
+```bibtex
+@article{VortexQuasarX2026,
+  title={TP53-SVE: Interpretable Pathogenicity Prediction via Structural Variation Ensembles},
+  author={VortexQuasarX and Gemini AI},
+  journal={Bioinformatics Exploration},
+  year={2026},
+  url={https://github.com/VortexQuasarX/tp53-sve}
+}
+```
 
 ---
 
