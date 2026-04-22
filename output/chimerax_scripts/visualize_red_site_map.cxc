@@ -1,0 +1,67 @@
+# Red Site Map: 20 Red Targets on Blue Wild Type
+open ../../data/structures/tp53_wt.cif
+color #1 blue
+show #1 cartoons
+2dlabels create title text "Blue: The Wild Type | Red Spheres: The 20 Mutation Targets" xpos 0.5 ypos 0.9 size 30 color white
+show #1:135 atoms
+style #1:135 sphere
+color #1:135 red
+show #1:176 atoms
+style #1:176 sphere
+color #1:176 red
+show #1:245 atoms
+style #1:245 sphere
+color #1:245 red
+show #1:179 atoms
+style #1:179 sphere
+color #1:179 red
+show #1:193 atoms
+style #1:193 sphere
+color #1:193 red
+show #1:237 atoms
+style #1:237 sphere
+color #1:237 red
+show #1:278 atoms
+style #1:278 sphere
+color #1:278 red
+show #1:158 atoms
+style #1:158 sphere
+color #1:158 red
+show #1:158 atoms
+style #1:158 sphere
+color #1:158 red
+show #1:175 atoms
+style #1:175 sphere
+color #1:175 red
+show #1:213 atoms
+style #1:213 sphere
+color #1:213 red
+show #1:248 atoms
+style #1:248 sphere
+color #1:248 red
+show #1:248 atoms
+style #1:248 sphere
+color #1:248 red
+show #1:249 atoms
+style #1:249 sphere
+color #1:249 red
+show #1:273 atoms
+style #1:273 sphere
+color #1:273 red
+show #1:273 atoms
+style #1:273 sphere
+color #1:273 red
+show #1:273 atoms
+style #1:273 sphere
+color #1:273 red
+show #1:282 atoms
+style #1:282 sphere
+color #1:282 red
+show #1:157 atoms
+style #1:157 sphere
+color #1:157 red
+show #1:220 atoms
+style #1:220 sphere
+color #1:220 red
+lighting soft
+view orient

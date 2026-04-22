@@ -1,0 +1,21 @@
+Mutation,RMSD,RMSD_Severity,SIFT_Score,SIFT_Prediction,PolyPhen2_Score,PolyPhen2_Prediction,RMSD_Rank,SIFT_Rank,PP2_Rank
+P278S,36.5299,Critical,0.01,Damaging,0.993,Probably Damaging,1,18,19
+R249S,34.2997,Critical,0.0,Damaging,1.0,Probably Damaging,2,1,1
+G245S,33.4872,Critical,0.0,Damaging,1.0,Probably Damaging,3,1,1
+R158H,33.4055,Critical,0.0,Damaging,0.999,Probably Damaging,4,1,14
+R248W,32.6174,Critical,0.0,Damaging,1.0,Probably Damaging,5,1,1
+V157F,32.2828,Critical,0.0,Damaging,0.999,Probably Damaging,6,1,14
+R158L,32.2115,Critical,0.0,Damaging,0.997,Probably Damaging,7,1,18
+R175H,31.8538,Critical,0.0,Damaging,1.0,Probably Damaging,8,1,1
+H179R,31.2106,Critical,0.0,Damaging,1.0,Probably Damaging,9,1,1
+R273L,30.1157,Critical,0.0,Damaging,1.0,Probably Damaging,10,1,1
+R273C,29.3747,Severe,0.0,Damaging,1.0,Probably Damaging,11,1,1
+R282W,28.8514,Severe,0.0,Damaging,1.0,Probably Damaging,12,1,1
+C176F,27.554,Severe,0.0,Damaging,1.0,Probably Damaging,13,1,1
+H193R,22.7217,Severe,0.0,Damaging,1.0,Probably Damaging,14,1,1
+R248Q,22.192,Severe,0.0,Damaging,1.0,Probably Damaging,15,1,1
+Y220C,22.1159,Severe,0.0,Damaging,1.0,Probably Damaging,16,1,1
+R273H,20.9865,Severe,0.0,Damaging,0.999,Probably Damaging,17,1,14
+C135Y,20.5619,Severe,0.0,Damaging,1.0,Probably Damaging,18,1,1
+M237I,19.7161,Moderate,0.01,Damaging,0.998,Probably Damaging,19,18,17
+R213Q,8.2168,Stable,0.02,Damaging,0.847,Probably Damaging,20,20,20

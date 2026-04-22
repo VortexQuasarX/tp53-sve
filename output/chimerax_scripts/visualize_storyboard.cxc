@@ -1,0 +1,134 @@
+close session
+# The Storyboard CLEAN: No Ghosts, No Flicker
+# Step 1: Healthy. Step 2: Spheres. Step 3: Red Backbone.
+open ../../data/structures/tp53_wt.cif
+color #1 blue
+show #1 cartoons
+2dlabels create title text "Step 1: The Healthy Foundation" xpos 0.5 ypos 0.9 size 30 color white
+view orient
+lighting soft
+wait 120
+2dlabels change title text "Step 2: The Targets (Where mutation happens)"
+color #1:135 red
+show #1:135 atoms
+style #1:135 sphere
+color #1:135 red
+color #1:176 red
+show #1:176 atoms
+style #1:176 sphere
+color #1:176 red
+color #1:245 red
+show #1:245 atoms
+style #1:245 sphere
+color #1:245 red
+color #1:179 red
+show #1:179 atoms
+style #1:179 sphere
+color #1:179 red
+color #1:193 red
+show #1:193 atoms
+style #1:193 sphere
+color #1:193 red
+color #1:237 red
+show #1:237 atoms
+style #1:237 sphere
+color #1:237 red
+color #1:278 red
+show #1:278 atoms
+style #1:278 sphere
+color #1:278 red
+color #1:158 red
+show #1:158 atoms
+style #1:158 sphere
+color #1:158 red
+color #1:158 red
+show #1:158 atoms
+style #1:158 sphere
+color #1:158 red
+color #1:175 red
+show #1:175 atoms
+style #1:175 sphere
+color #1:175 red
+color #1:213 red
+show #1:213 atoms
+style #1:213 sphere
+color #1:213 red
+color #1:248 red
+show #1:248 atoms
+style #1:248 sphere
+color #1:248 red
+color #1:248 red
+show #1:248 atoms
+style #1:248 sphere
+color #1:248 red
+color #1:249 red
+show #1:249 atoms
+style #1:249 sphere
+color #1:249 red
+color #1:273 red
+show #1:273 atoms
+style #1:273 sphere
+color #1:273 red
+color #1:273 red
+show #1:273 atoms
+style #1:273 sphere
+color #1:273 red
+color #1:273 red
+show #1:273 atoms
+style #1:273 sphere
+color #1:273 red
+color #1:282 red
+show #1:282 atoms
+style #1:282 sphere
+color #1:282 red
+color #1:157 red
+show #1:157 atoms
+style #1:157 sphere
+color #1:157 red
+color #1:220 red
+show #1:220 atoms
+style #1:220 sphere
+color #1:220 red
+wait 120
+2dlabels change title text "Step 3: The Invasion (Red Conquers Blue)"
+wait 3
+wait 3
+wait 3
+wait 3
+wait 3
+wait 3
+wait 3
+wait 3
+wait 3
+wait 3
+wait 3
+wait 3
+wait 3
+wait 3
+wait 3
+wait 3
+wait 3
+wait 3
+wait 3
+wait 3
+color #1:135 red
+color #1:176 red
+color #1:245 red
+color #1:179 red
+color #1:193 red
+color #1:237 red
+color #1:278 red
+color #1:158 red
+color #1:158 red
+color #1:175 red
+color #1:213 red
+color #1:248 red
+color #1:248 red
+color #1:249 red
+color #1:273 red
+color #1:273 red
+color #1:273 red
+color #1:282 red
+color #1:157 red
+color #1:220 red
+wait 240

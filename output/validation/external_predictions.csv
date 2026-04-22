@@ -1,0 +1,104 @@
+Mutation,Score,Prediction,Known
+E221K,100.0,Pathogenic,Unknown
+K164E,98.4,Pathogenic,Unknown
+G245D,91.2,Pathogenic,Unknown
+H179Q,85.0,Pathogenic,Unknown
+G244C,82.5,Pathogenic,Unknown
+L194R,82.4,Pathogenic,Likely Oncogenic (COSMIC)
+K292R,81.0,Pathogenic,Unknown
+R175G,78.9,Pathogenic,Unknown
+T253I,78.7,Pathogenic,Unknown
+D281G,76.3,Pathogenic,Likely Oncogenic (COSMIC)
+R249T,75.4,Pathogenic,Unknown
+E285K,75.3,Pathogenic,Likely Oncogenic (COSMIC)
+P278R,74.8,Pathogenic,Unknown
+W146C,73.7,Pathogenic,Unknown
+C242F,73.3,Pathogenic,Unknown
+Y220N,72.5,Pathogenic,Unknown
+C238Y,71.6,Pathogenic,Unknown
+V173L,70.0,Pathogenic,Unknown
+C176R,69.7,Pathogenic,Unknown
+R156H,69.6,Pathogenic,Unknown
+N247D,69.5,Pathogenic,Likely Oncogenic (COSMIC)
+I195T,69.4,Pathogenic,Likely Oncogenic (COSMIC)
+L130F,69.0,Pathogenic,Unknown
+C141Y,68.7,Pathogenic,Unknown
+R282Q,68.1,Pathogenic,Unknown
+P152L,68.1,Pathogenic,Unknown
+R267W,68.0,Pathogenic,Unknown
+G187T,67.8,Pathogenic,Unknown
+Y126D,66.8,Pathogenic,Unknown
+C242S,66.6,Pathogenic,Unknown
+V143A,65.6,Pathogenic,Temperature-Sensitive
+D49R,65.4,Pathogenic,Unknown
+R249G,65.3,Pathogenic,Unknown
+R306P,63.5,Pathogenic,Unknown
+Y220S,62.8,Pathogenic,Unknown
+F113N,62.3,Pathogenic,Unknown
+N239D,61.8,Pathogenic,Likely Oncogenic (COSMIC)
+N210S,61.2,Pathogenic,Unknown
+S166L,61.1,Pathogenic,Unknown
+Y234C,60.5,Pathogenic,Unknown
+R196Q,59.7,Pathogenic,Unknown
+A159V,59.6,Pathogenic,Unknown
+P250L,58.9,Pathogenic,Unknown
+R110P,58.7,Pathogenic,Unknown
+E286K,58.7,Pathogenic,Unknown
+V31I,58.2,Pathogenic,Unknown
+G266V,56.1,Pathogenic,Unknown
+R248G,55.7,Pathogenic,Unknown
+R280K,54.8,Pathogenic,Likely Oncogenic (COSMIC)
+T387V,54.7,Pathogenic,Unknown
+F270L,54.5,Pathogenic,Unknown
+I251F,53.2,Pathogenic,Unknown
+A138V,52.5,Pathogenic,Likely Benign (literature)
+K319T,50.9,Pathogenic,Unknown
+R280T,49.8,Pathogenic,Unknown
+V272M,49.5,Pathogenic,Gain-of-Function
+R175C,49.3,Pathogenic,Unknown
+E294G,48.6,Pathogenic,Unknown
+T155I,48.1,Pathogenic,Unknown
+V217M,47.6,Pathogenic,Unknown
+S240N,47.3,Pathogenic,Unknown
+S366A,47.2,Pathogenic,Unknown
+G108L,46.7,Pathogenic,Unknown
+K382R,46.6,Pathogenic,Likely Benign (literature)
+R248L,46.5,Pathogenic,Unknown
+Y163C,46.3,Pathogenic,Unknown
+Q5T,46.2,Pathogenic,Unknown
+C176S,45.1,Pathogenic,Unknown
+S241F,44.7,Pathogenic,Likely Oncogenic (COSMIC)
+D281E,41.7,Pathogenic,Unknown
+L14V,41.1,Pathogenic,Unknown
+G302R,40.8,Pathogenic,Unknown
+S313R,40.2,Pathogenic,Unknown
+E258K,40.1,Pathogenic,Unknown
+A276V,39.9,Pathogenic,Unknown
+H380R,37.7,Pathogenic,Unknown
+S378Q,37.5,Pathogenic,Unknown
+P36G,37.2,Pathogenic,Unknown
+E56D,37.2,Pathogenic,Unknown
+Q331R,35.2,Benign,Unknown
+R342P,34.9,Benign,Likely Oncogenic (COSMIC)
+S46E,34.2,Benign,Unknown
+E339D,34.0,Benign,Unknown
+D393E,32.1,Benign,Unknown
+E352D,31.9,Benign,Unknown
+K372S,31.8,Benign,Unknown
+Q375H,31.8,Benign,Unknown
+F341K,28.2,Benign,Unknown
+M40N,28.1,Benign,Unknown
+T125M,27.1,Benign,Likely Oncogenic (COSMIC)
+L25V,26.8,Benign,Unknown
+W23R,26.5,Benign,Likely Oncogenic (COSMIC)
+P34L,25.6,Benign,Unknown
+D21N,24.4,Benign,Unknown
+N345S,22.6,Benign,Likely Benign (literature)
+E326N,21.7,Benign,Unknown
+W91L,17.4,Benign,Unknown
+F54S,12.8,Benign,Unknown
+L344R,11.5,Benign,Likely Oncogenic (COSMIC)
+P85S,11.4,Benign,Unknown
+N29S,6.5,Benign,Unknown
+P71V,3.9,Benign,Unknown
+L22F,0.7,Benign,Likely Oncogenic (COSMIC)

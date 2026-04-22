@@ -1,0 +1,31 @@
+Name,Position,WT_Residue,Mut_Residue,Classification,Evidence
+R110P,110,R,P,Pathogenic,Pathogenic - L1 loop disruption
+L130F,130,L,F,Pathogenic,Pathogenic - beta strand S2
+C141Y,141,C,Y,Pathogenic,Pathogenic - core packing
+P152L,152,P,L,Pathogenic,Pathogenic - S3-S4 loop
+Y163C,163,Y,C,Pathogenic,Pathogenic - L2 loop entry
+Q166L,166,Q,L,Pathogenic,Pathogenic - L2 loop
+V173L,173,V,L,Pathogenic,Pathogenic - buried core
+C176S,176,C,S,Pathogenic,Pathogenic - zinc ligand
+R196Q,196,R,Q,Pathogenic,Pathogenic - L2-L3 hinge
+Y205C,205,Y,C,Pathogenic,Pathogenic - beta sheet S6
+S215G,215,S,G,Pathogenic,Pathogenic - loop S7-S8
+V216M,216,V,M,Pathogenic,Pathogenic - beta sheet S7
+Y220N,220,Y,N,Pathogenic,Pathogenic - same position as Y220C
+C238Y,238,C,Y,Pathogenic,Pathogenic - zinc ligand
+C242S,242,C,S,Pathogenic,Pathogenic - zinc ligand
+G244D,244,G,D,Pathogenic,Pathogenic - L3 loop
+G244C,244,G,C,Pathogenic,Pathogenic - L3 loop
+G245C,245,G,C,Pathogenic,Pathogenic - L3 loop
+R248G,248,R,G,Pathogenic,Pathogenic - DNA contact
+R249T,249,R,T,Pathogenic,Pathogenic - aflatoxin hotspot variant
+P250L,250,P,L,Pathogenic,Pathogenic - L3 loop anchor
+E258K,258,E,K,Pathogenic,Pathogenic - helix H2
+F270L,270,F,L,Pathogenic,Pathogenic - DNA contact scaffold
+P278R,278,P,R,Pathogenic,Pathogenic - same position as P278S
+R280T,280,R,T,Pathogenic,Pathogenic - DNA contact region
+D281E,281,D,E,Pathogenic,Pathogenic - DNA contact adjacent
+E285V,285,E,V,Pathogenic,Pathogenic - helix H2
+E286K,286,E,K,Pathogenic,Pathogenic - helix H2 C-terminus
+P298S,298,P,S,Pathogenic,Pathogenic - DBD exit
+R306P,306,R,P,Pathogenic,Pathogenic - linker region

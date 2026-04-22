@@ -1,0 +1,110 @@
+# Mutation Map: All 20 Sites on Wild Type
+# Shows WHERE the mutations happen and HOW destructive they are.
+open ../../data/structures/tp53_wt.cif
+color #1 blue
+show #1 cartoons
+2dlabels create title text "The Map of Vulnerability" xpos 0.5 ypos 0.9 size 30 color white
+
+# C135Y (RMSD: 20.5619)
+show #1:135 atoms
+style #1:135 sphere
+color #1:135 yellow
+
+# C176F (RMSD: 27.554)
+show #1:176 atoms
+style #1:176 sphere
+color #1:176 yellow
+
+# G245S (RMSD: 33.4872)
+show #1:245 atoms
+style #1:245 sphere
+color #1:245 red
+
+# H179R (RMSD: 31.2106)
+show #1:179 atoms
+style #1:179 sphere
+color #1:179 red
+
+# H193R (RMSD: 22.7217)
+show #1:193 atoms
+style #1:193 sphere
+color #1:193 yellow
+
+# M237I (RMSD: 19.7161)
+show #1:237 atoms
+style #1:237 sphere
+color #1:237 yellow
+
+# P278S (RMSD: 36.5299)
+show #1:278 atoms
+style #1:278 sphere
+color #1:278 red
+
+# R158H (RMSD: 33.4055)
+show #1:158 atoms
+style #1:158 sphere
+color #1:158 red
+
+# R158L (RMSD: 32.2115)
+show #1:158 atoms
+style #1:158 sphere
+color #1:158 red
+
+# R175H (RMSD: 31.8538)
+show #1:175 atoms
+style #1:175 sphere
+color #1:175 red
+
+# R213Q (RMSD: 8.2168)
+show #1:213 atoms
+style #1:213 sphere
+color #1:213 green
+
+# R248Q (RMSD: 22.192)
+show #1:248 atoms
+style #1:248 sphere
+color #1:248 yellow
+
+# R248W (RMSD: 32.6174)
+show #1:248 atoms
+style #1:248 sphere
+color #1:248 red
+
+# R249S (RMSD: 34.2997)
+show #1:249 atoms
+style #1:249 sphere
+color #1:249 red
+
+# R273C (RMSD: 29.3747)
+show #1:273 atoms
+style #1:273 sphere
+color #1:273 yellow
+
+# R273H (RMSD: 20.9865)
+show #1:273 atoms
+style #1:273 sphere
+color #1:273 yellow
+
+# R273L (RMSD: 30.1157)
+show #1:273 atoms
+style #1:273 sphere
+color #1:273 red
+
+# R282W (RMSD: 28.8514)
+show #1:282 atoms
+style #1:282 sphere
+color #1:282 yellow
+
+# V157F (RMSD: 32.2828)
+show #1:157 atoms
+style #1:157 sphere
+color #1:157 red
+
+# Y220C (RMSD: 22.1159)
+show #1:220 atoms
+style #1:220 sphere
+color #1:220 yellow
+
+# Make it look nice
+lighting soft
+view orient

@@ -1,0 +1,129 @@
+Mutation,RMSD (Angstroms),Classification
+A138V,14.2027,Unknown
+A159V,33.7969,Likely Oncogenic
+A189V,18.9269,Benign
+A276V,29.8071,Likely Oncogenic
+C135Y,20.5619,Likely Oncogenic
+C141Y,33.2702,Likely Oncogenic
+C176F,27.554,Likely Oncogenic
+C176R,31.5949,Likely Oncogenic
+C176S,35.3059,Likely Oncogenic
+C238Y,23.6182,Likely Oncogenic
+C242F,13.313,Likely Oncogenic
+C242S,28.1234,Likely Oncogenic
+D21N,33.6655,Unknown
+D281E,36.4893,Likely Oncogenic
+D281G,32.7702,Unknown
+D393E,35.2479,Benign
+D49R,29.5919,Unknown
+E221K,32.3929,Likely Oncogenic
+E258K,29.0433,Likely Oncogenic
+E285K,32.9137,Unknown
+E286K,24.5827,Likely Oncogenic
+E294G,17.9474,Unknown
+E326N,36.5389,Unknown
+E339D,14.6002,Unknown
+E352D,17.8069,Unknown
+E56D,33.1264,Benign
+F113N,33.4611,Unknown
+F270L,34.4647,Likely Oncogenic
+F341K,35.9703,Unknown
+F54S,29.5204,Unknown
+G108L,25.9235,Unknown
+G187T,20.2392,Unknown
+G244C,19.8936,Likely Oncogenic
+G245D,32.198,Unknown
+G245S,33.4872,Likely Oncogenic
+G266V,27.2404,Unknown
+G302R,30.93,Unknown
+H179Q,32.1877,Likely Oncogenic
+H179R,31.2106,Likely Oncogenic
+H193R,22.7217,Likely Oncogenic
+H380R,30.918,Unknown
+I195T,32.5522,Unknown
+I251F,26.8467,Likely Oncogenic
+K132R,17.7668,Benign
+K164E,36.0598,Likely Oncogenic
+K292R,24.399,Unknown
+K319T,29.1008,Unknown
+K372S,33.2867,Unknown
+K382R,31.7023,Unknown
+L130F,18.5312,Likely Oncogenic
+L14V,17.2207,Benign
+L194R,32.8773,Unknown
+L22F,29.3793,Unknown
+L25V,29.8216,Benign
+L344R,22.5967,Unknown
+M237I,19.7161,Likely Oncogenic
+M40N,26.7035,Unknown
+N210S,32.7993,Unknown
+N239D,22.0229,Unknown
+N247D,30.7411,Unknown
+N29S,33.001,Unknown
+N345S,33.1697,Unknown
+P152L,27.6545,Likely Oncogenic
+P250L,33.8884,Likely Oncogenic
+P278R,17.9795,Likely Oncogenic
+P278S,36.5299,Likely Oncogenic
+P34L,32.0017,Benign
+P36G,19.4784,Unknown
+P47S,22.0739,Benign
+P71V,20.3495,Unknown
+P72R,37.0815,Benign
+P85S,34.2345,Unknown
+Q331R,28.6333,Unknown
+Q375H,35.1303,Unknown
+Q5T,29.9808,Unknown
+R110P,31.8022,Likely Oncogenic
+R156H,32.3977,Likely Oncogenic
+R158H,33.4055,Likely Oncogenic
+R158L,32.2115,Likely Oncogenic
+R175C,25.8032,Unknown
+R175G,32.1425,Unknown
+R175H,31.8538,Likely Oncogenic
+R196Q,33.2095,Likely Oncogenic
+R213Q,8.2168,Likely Oncogenic
+R248G,30.1166,Likely Oncogenic
+R248L,21.5996,Unknown
+R248Q,22.192,Likely Oncogenic
+R248W,32.6174,Likely Oncogenic
+R249G,35.1811,Unknown
+R249S,34.2997,Likely Oncogenic
+R249T,16.7298,Likely Oncogenic
+R267W,30.4295,Unknown
+R273C,29.3747,Likely Oncogenic
+R273H,20.9865,Likely Oncogenic
+R273L,30.1157,Likely Oncogenic
+R280K,24.7245,Unknown
+R280T,37.7316,Likely Oncogenic
+R282Q,31.5187,Unknown
+R282W,28.8514,Likely Oncogenic
+R306P,32.7287,Likely Oncogenic
+R337H,32.9437,Benign
+R342P,36.0602,Unknown
+S166L,33.6555,Unknown
+S240N,24.1639,Unknown
+S241F,37.8149,Unknown
+S313R,33.9092,Unknown
+S366A,32.7697,Unknown
+S378Q,23.9704,Unknown
+S46E,32.9965,Unknown
+T125M,26.5572,Unknown
+T155I,33.7498,Likely Oncogenic
+T253I,26.1832,Likely Oncogenic
+T387V,18.0304,Unknown
+V143A,35.4997,Unknown
+V157F,32.2828,Likely Oncogenic
+V173L,17.7013,Likely Oncogenic
+V217M,24.4862,Benign
+V272M,28.2678,Unknown
+V31I,30.9209,Unknown
+W146C,20.7398,Likely Oncogenic
+W23R,36.4377,Unknown
+W91L,32.9346,Unknown
+Y126D,22.6419,Likely Oncogenic
+Y163C,20.8872,Likely Oncogenic
+Y220C,22.1159,Likely Oncogenic
+Y220N,29.083,Likely Oncogenic
+Y220S,32.0651,Unknown
+Y234C,33.5168,Likely Oncogenic

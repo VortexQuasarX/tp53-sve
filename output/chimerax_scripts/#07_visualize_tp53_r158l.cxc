@@ -1,0 +1,36 @@
+# ChimeraX Script for R158L
+# 1. Open the Structures
+open ../../data/structures/tp53_wt.cif
+open ../../data/structures/tp53_r158l.cif
+
+# 2. Align them (Match Maker)
+matchmaker #2 to #1
+
+# 3. Styling
+# We use default Ribbon style for the backbone (Cleanest view)
+# Blue = Wild Type, Red = Mutant
+color #1 blue
+color #2 red
+
+# 4. Focus on the Mutation Site
+# Residue 158 on Mutant Chain (Model #2)
+show #2:158 atoms
+view #2:158
+
+# 5. Highlight the Change (Sphere Style)
+# This matches the "Destruction vs Stability" demo style
+style #2:158 sphere
+color #2:158 red
+
+# 6. Coloring the Backbones (Already done in Step 3)
+# Blue = Wild Type, Red = Mutant
+
+# Label the site
+2dlabels create title text "R158L: Likely Oncogenic" xpos 0.5 ypos 0.9 color white size 30
+
+# Lighting
+lighting soft
+view orient
+
+# 7. Save Image (Optional)
+# save ../visualization_R158L.png width 1200 height 1200

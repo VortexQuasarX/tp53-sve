@@ -1,0 +1,51 @@
+Rank,Mutation,RMSD (Angstroms),Severity,Classification
+1,S241F,37.8149,Critical,Gain-of-Function
+2,P72R,37.0815,Critical,Benign
+3,P278S,36.5299,Critical,Likely Oncogenic
+4,W23R,36.4377,Critical,Likely Oncogenic
+5,R342P,36.0602,Critical,Likely Oncogenic
+6,V143A,35.4997,Critical,Temperature-Sensitive
+7,R249G,35.1811,Critical,Likely Oncogenic
+8,R249S,34.2997,Critical,Likely Oncogenic
+9,G245S,33.4872,Critical,Likely Oncogenic
+10,R158H,33.4055,Critical,Likely Oncogenic
+11,N345S,33.1697,Critical,Likely Oncogenic
+12,R337H,32.9437,Critical,Low-Penetrance
+13,E285K,32.9137,Critical,Likely Oncogenic
+14,L194R,32.8773,Critical,Likely Oncogenic
+15,D281G,32.7702,Critical,Gain-of-Function
+16,R248W,32.6174,Critical,Likely Oncogenic
+17,I195T,32.5522,Critical,Temperature-Sensitive
+18,V157F,32.2828,Critical,Likely Oncogenic
+19,R158L,32.2115,Critical,Likely Oncogenic
+20,G245D,32.198,Critical,Likely Oncogenic
+21,R175G,32.1425,Critical,Likely Oncogenic
+22,Y220S,32.0651,Critical,Likely Oncogenic
+23,R175H,31.8538,Critical,Likely Oncogenic
+24,K382R,31.7023,Critical,Likely Oncogenic
+25,R282Q,31.5187,Critical,Likely Oncogenic
+26,H179R,31.2106,Critical,Likely Oncogenic
+27,N247D,30.7411,Critical,Likely Oncogenic
+28,R273L,30.1157,Critical,Likely Oncogenic
+29,L22F,29.3793,Severe,Likely Oncogenic
+30,R273C,29.3747,Severe,Likely Oncogenic
+31,R282W,28.8514,Severe,Likely Oncogenic
+32,V272M,28.2678,Severe,Gain-of-Function
+33,C176F,27.554,Severe,Likely Oncogenic
+34,T125M,26.5572,Severe,Likely Oncogenic
+35,R175C,25.8032,Severe,Likely Oncogenic
+36,R280K,24.7245,Severe,Gain-of-Function
+37,H193R,22.7217,Severe,Likely Oncogenic
+38,L344R,22.5967,Severe,Likely Oncogenic
+39,R248Q,22.192,Severe,Likely Oncogenic
+40,Y220C,22.1159,Severe,Likely Oncogenic
+41,P47S,22.0739,Severe,Benign
+42,N239D,22.0229,Severe,Likely Oncogenic
+43,R248L,21.5996,Severe,Likely Oncogenic
+44,R273H,20.9865,Severe,Likely Oncogenic
+45,C135Y,20.5619,Severe,Likely Oncogenic
+46,M237I,19.7161,Moderate,Likely Oncogenic
+47,A189V,18.9269,Moderate,VUS
+48,K132R,17.7668,Moderate,VUS
+49,A138V,14.2027,Moderate,Temperature-Sensitive
+50,R213Q,8.2168,Stable,Likely Oncogenic

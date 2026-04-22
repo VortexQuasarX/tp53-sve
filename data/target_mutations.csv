@@ -1,0 +1,21 @@
+gene,mutation,wt_residue,position,mut_residue,classification
+TP53,C135Y,C,135,Y,Likely Oncogenic
+TP53,C176F,C,176,F,Likely Oncogenic
+TP53,G245S,G,245,S,Likely Oncogenic
+TP53,H179R,H,179,R,Likely Oncogenic
+TP53,H193R,H,193,R,Likely Oncogenic
+TP53,M237I,M,237,I,Likely Oncogenic
+TP53,P278S,P,278,S,Likely Oncogenic
+TP53,R158H,R,158,H,Likely Oncogenic
+TP53,R158L,R,158,L,Likely Oncogenic
+TP53,R175H,R,175,H,Likely Oncogenic
+TP53,R213Q,R,213,Q,Likely Oncogenic
+TP53,R248Q,R,248,Q,Likely Oncogenic
+TP53,R248W,R,248,W,Likely Oncogenic
+TP53,R249S,R,249,S,Likely Oncogenic
+TP53,R273C,R,273,C,Likely Oncogenic
+TP53,R273H,R,273,H,Likely Oncogenic
+TP53,R273L,R,273,L,Likely Oncogenic
+TP53,R282W,R,282,W,Likely Oncogenic
+TP53,V157F,V,157,F,Likely Oncogenic
+TP53,Y220C,Y,220,C,Likely Oncogenic

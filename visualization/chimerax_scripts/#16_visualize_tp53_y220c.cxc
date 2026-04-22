@@ -1,0 +1,36 @@
+# ChimeraX Script for Y220C
+# 1. Open the Structures
+open ../../data/structures/tp53_wt.cif
+open ../../data/structures/tp53_y220c.cif
+
+# 2. Align them (Match Maker)
+matchmaker #2 to #1
+
+# 3. Styling
+# We use default Ribbon style for the backbone (Cleanest view)
+# Blue = Wild Type, Red = Mutant
+color #1 blue
+color #2 red
+
+# 4. Focus on the Mutation Site
+# Residue 220 on Mutant Chain (Model #2)
+show #2:220 atoms
+view #2:220
+
+# 5. Highlight the Change (Sphere Style)
+# This matches the "Destruction vs Stability" demo style
+style #2:220 sphere
+color #2:220 yellow
+
+# 6. Coloring the Backbones (Already done in Step 3)
+# Blue = Wild Type, Red = Mutant
+
+# Label the site
+2dlabels create title text "Y220C: Likely Oncogenic" xpos 0.5 ypos 0.9 color white size 30
+
+# Lighting
+lighting soft
+view orient
+
+# 7. Save Image (Optional)
+# save ../visualization_Y220C.png width 1200 height 1200

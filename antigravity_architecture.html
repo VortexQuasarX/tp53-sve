@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP53-SVE Architecture | Structural Variance Engine</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ 
+            startOnLoad: true, 
+            theme: 'dark',
+            securityLevel: 'loose',
+            fontFamily: 'Inter',
+            themeVariables: {
+                darkMode: true,
+                primaryColor: '#6366f1',
+                primaryTextColor: '#fff',
+                primaryBorderColor: '#4f46e5',
+                lineColor: '#6366f1',
+                secondaryColor: '#10b981',
+                tertiaryColor: '#f59e0b'
+            }
+        });
+    </script>
+    <style>
+        :root {
+            --bg-dark: #0f172a;
+            --accent-glow: rgba(99, 102, 241, 0.15);
+            --glass-bg: rgba(30, 41, 59, 0.7);
+            --indigo-500: #6366f1;
+            --emerald-500: #10b981;
+            --rose-500: #f43f5e;
+        }
+
+        body { 
+            background-color: var(--bg-dark); 
+            background-image: 
+                radial-gradient(at 0% 0%, var(--accent-glow) 0, transparent 50%),
+                radial-gradient(at 100% 100%, var(--accent-glow) 0, transparent 50%);
+            color: #e2e8f0; 
+            font-family: 'Inter', sans-serif; 
+            margin: 0;
+            padding: 40px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: -0.025em;
+            background: linear-gradient(to right, #818cf8, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: #94a3b8;
+            max-width: 600px;
+        }
+
+        .glass-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
+            padding: 40px;
+            width: 100%;
+            max-width: 1200px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            margin-bottom: 40px;
+        }
+
+        .mermaid {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .tech-stack {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        .tech-item {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            border-radius: 16px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .tech-item:hover {
+            transform: translateY(-5px);
+            border-color: var(--indigo-500);
+            background: rgba(99, 102, 241, 0.05);
+        }
+
+        .tech-icon { font-size: 24px; margin-bottom: 8px; display: block; }
+        .tech-label { font-weight: 600; color: #f8fafc; font-size: 0.9rem; }
+        .tech-desc { font-size: 0.75rem; color: #64748b; margin-top: 4px; }
+
+        footer {
+            margin-top: 60px;
+            padding: 20px;
+            color: #475569;
+            font-size: 0.8rem;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TP53 Structural Variance Engine</h1>
+        <p class="subtitle">Next-Generation AI Pipeline for Mutation Triage, Explainable Diagnostics, and mRNA Vaccine Compilation</p>
+    </header>
+
+    <div class="glass-card">
+        <div class="mermaid">
+            graph TD
+                %% Phase 1: Structural Ensemble
+                subgraph P1 [PHASE 1: STRUCTURAL ENSEMBLE]
+                    A([128 Variants]) -->|Sequence| B[AlphaFold 3 / Wild-Type]
+                    A -->|Parallel Fold| C[ESMFold / Mutants]
+                    B & C --> D[Ensemble Coord Matrix]
+                end
+
+                %% Phase 2: SVE Core
+                subgraph P2 [PHASE 2: SVE ENGINE]
+                    D --> E{Biophysical Extraction}
+                    E --> F[RMSD / TM-Score]
+                    E --> G[Zinc Affinity / DNA Contact]
+                    E --> H[ARES Allosteric Rewiring]
+                    F & G & H --> I[(34-Feature SVE Matrix)]
+                end
+
+                %% Phase 3: Diagnostic Intelligence
+                subgraph P3 [PHASE 3: DIAGNOSTIC INTELLIGENCE]
+                    I --> J[Kolmogorov-Arnold Network - KAN]
+                    J --> K{XAI Layer}
+                    K --> K1[SHAP Importance]
+                    K --> K2[Spline Visualization]
+                    K --> K3[PCA Structural Landscape]
+                end
+
+                %% Phase 4: Therapeutic Strategy
+                subgraph P4 [PHASE 4: THERAPEUTIC STRATEGY]
+                    K1 --> L{SVE Outcome}
+                    L -->|Rescue| M[Counterfactual Gradients]
+                    L -->|Compiler| N[9-mer Neoantigens]
+                    M --> M1[Drug Rescue Targets]
+                    N --> O[mRNA compiler / LLM Optimized]
+                end
+
+                %% Architecture Sync
+                O --> P(((Unified TP53-SVE Dashboard)))
+
+                %% Styling
+                style P1 fill:#1e1b4b,stroke:#4338ca,stroke-width:2px,color:#fff
+                style P2 fill:#064e3b,stroke:#059669,stroke-width:2px,color:#fff
+                style P3 fill:#4c1d95,stroke:#7c3aed,stroke-width:2px,color:#fff
+                style P4 fill:#701a75,stroke:#c026d3,stroke-width:2px,color:#fff
+                style P success
+        </div>
+    </div>
+
+    <div class="tech-stack">
+        <div class="tech-item">
+            <span class="tech-icon">🔬</span>
+            <span class="tech-label">Structure</span>
+            <p class="tech-desc">AlphaFold 3 & ESMFold</p>
+        </div>
+        <div class="tech-item">
+            <span class="tech-icon">🧠</span>
+            <span class="tech-label">Intelligence</span>
+            <p class="tech-desc">KAN (Kolmogorov-Arnold)</p>
+        </div>
+        <div class="tech-item">
+            <span class="tech-icon">📉</span>
+            <span class="tech-label">Explainability</span>
+            <p class="tech-desc">SHAP & Spline Maps</p>
+        </div>
+        <div class="tech-item">
+            <span class="tech-icon">🤖</span>
+            <span class="tech-label">Local LLM</span>
+            <p class="tech-desc">LM Studio / Qwen3.5-9B</p>
+        </div>
+        <div class="tech-item">
+            <span class="tech-icon">🧬</span>
+            <span class="tech-label">Vaccine</span>
+            <p class="tech-desc">Codon Optimization Engine</p>
+        </div>
+        <div class="tech-item">
+            <span class="tech-icon">🚀</span>
+            <span class="tech-label">Deployment</span>
+            <p class="tech-desc">Streamlit XAI Dashboard</p>
+        </div>
+    </div>
+
+    <footer>Generated by TP53-SVE System v1.0.0 | Structural Variance Engine Core</footer>
+</body>
+</html>

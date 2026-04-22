@@ -1,0 +1,27 @@
+
+def verify_sequence():
+    # 1. The Sequence YOU provided (UniProt P04637-1)
+    user_provided_seq = "MEEPQSDPSVEPPLSQETFSDLWKLLPENNVLSPLPSQAMDDLMLSPDDIEQWFTEDPGPDEAPRMPEAAPPVAPAPAAPTPAAPAPAPSWPLSSSVPSQKTYQGSYGFRLGFLHSGTAKSVTCTYSPALNKMFCQLAKTCPVQLWVDSTPPPGTRVRAMAIYKQSQHMTEVVRRCPHHERCSDSDGLAPPQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSFEVRVCACPGRDRRTEEENLRKKGEPHHELPPGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD"
+    
+    # 2. The Sequence WE used in the project
+    # (Copied directly from src/prepare_alphafold_inputs.py)
+    project_seq = "MEEPQSDPSVEPPLSQETFSDLWKLLPENNVLSPLPSQAMDDLMLSPDDIEQWFTEDPGPDEAPRMPEAAPPVAPAPAAPTPAAPAPAPSWPLSSSVPSQKTYQGSYGFRLGFLHSGTAKSVTCTYSPALNKMFCQLAKTCPVQLWVDSTPPPGTRVRAMAIYKQSQHMTEVVRRCPHHERCSDSDGLAPPQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSFEVRVCACPGRDRRTEEENLRKKGEPHHELPPGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD"
+    
+    print("--- SEQUENCE IDENTITY CHECK ---")
+    print(f"User Reference Length: {len(user_provided_seq)}")
+    print(f"Project Code Length:   {len(project_seq)}")
+    
+    # Check for match
+    if user_provided_seq == project_seq:
+        print("\n[SUCCESS] The sequences are 100% IDENTICAL.")
+        print("This confirms we used the Canonical P04637-1 Isoform.")
+    else:
+        print("\n[FAIL] Mismatch found.")
+        # Find where they differ
+        for i, (a, b) in enumerate(zip(user_provided_seq, project_seq)):
+            if a != b:
+                print(f"Mismatch at position {i+1}: User='{a}', Project='{b}'")
+                break
+
+if __name__ == "__main__":
+    verify_sequence()

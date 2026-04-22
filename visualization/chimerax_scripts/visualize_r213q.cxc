@@ -1,0 +1,19 @@
+# ChimeraX Script to visualize TP53 R213Q
+open data/structures/tp53_wt.cif
+open data/structures/tp53_r213q.cif
+
+# Design
+matchmaker #2 to #1
+color bfactor palette alphafold
+style sticks
+show #1:213 atoms
+show #2:213 atoms
+
+# Aesthetics
+lighting full
+set bg_color white
+view orient
+
+# Save
+save output/chimerax_r213q.png width 1200 height 1200
+quit

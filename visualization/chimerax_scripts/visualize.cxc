@@ -1,0 +1,19 @@
+# ChimeraX Script to visualize TP53 P278S
+open data/structures/tp53_wt.cif
+open data/structures/tp53_p278s.cif
+
+# Design
+matchmaker #2 to #1
+color bfactor palette alphafold
+style sticks
+show #1:278 atoms
+show #2:278 atoms
+
+# Aesthetics
+lighting full
+set bg_color white
+view orient
+
+# Save
+save output/chimerax_p278s.png width 1200 height 1200
+quit

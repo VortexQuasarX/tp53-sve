@@ -1,0 +1,129 @@
+gene,mutation,classification
+TP53,A138V,Unknown
+TP53,A159V,Likely Oncogenic
+TP53,A189V,Benign
+TP53,A276V,Likely Oncogenic
+TP53,C135Y,Likely Oncogenic
+TP53,C141Y,Likely Oncogenic
+TP53,C176F,Likely Oncogenic
+TP53,C176R,Likely Oncogenic
+TP53,C176S,Likely Oncogenic
+TP53,C238Y,Likely Oncogenic
+TP53,C242F,Likely Oncogenic
+TP53,C242S,Likely Oncogenic
+TP53,D21N,Unknown
+TP53,D281E,Likely Oncogenic
+TP53,D281G,Unknown
+TP53,D393E,Benign
+TP53,D49R,Unknown
+TP53,E221K,Likely Oncogenic
+TP53,E258K,Likely Oncogenic
+TP53,E285K,Unknown
+TP53,E286K,Likely Oncogenic
+TP53,E294G,Unknown
+TP53,E326N,Unknown
+TP53,E339D,Unknown
+TP53,E352D,Unknown
+TP53,E56D,Benign
+TP53,F113N,Unknown
+TP53,F270L,Likely Oncogenic
+TP53,F341K,Unknown
+TP53,F54S,Unknown
+TP53,G108L,Unknown
+TP53,G187T,Unknown
+TP53,G244C,Likely Oncogenic
+TP53,G245D,Unknown
+TP53,G245S,Likely Oncogenic
+TP53,G266V,Unknown
+TP53,G302R,Unknown
+TP53,H179Q,Likely Oncogenic
+TP53,H179R,Likely Oncogenic
+TP53,H193R,Likely Oncogenic
+TP53,H380R,Unknown
+TP53,I195T,Unknown
+TP53,I251F,Likely Oncogenic
+TP53,K132R,Benign
+TP53,K164E,Likely Oncogenic
+TP53,K292R,Unknown
+TP53,K319T,Unknown
+TP53,K372S,Unknown
+TP53,K382R,Unknown
+TP53,L130F,Likely Oncogenic
+TP53,L14V,Benign
+TP53,L194R,Unknown
+TP53,L22F,Unknown
+TP53,L25V,Benign
+TP53,L344R,Unknown
+TP53,M237I,Likely Oncogenic
+TP53,M40N,Unknown
+TP53,N210S,Unknown
+TP53,N239D,Unknown
+TP53,N247D,Unknown
+TP53,N29S,Unknown
+TP53,N345S,Unknown
+TP53,P152L,Likely Oncogenic
+TP53,P250L,Likely Oncogenic
+TP53,P278R,Likely Oncogenic
+TP53,P278S,Likely Oncogenic
+TP53,P34L,Benign
+TP53,P36G,Unknown
+TP53,P47S,Benign
+TP53,P71V,Unknown
+TP53,P72R,Benign
+TP53,P85S,Unknown
+TP53,Q331R,Unknown
+TP53,Q375H,Unknown
+TP53,Q5T,Unknown
+TP53,R110P,Likely Oncogenic
+TP53,R156H,Likely Oncogenic
+TP53,R158H,Likely Oncogenic
+TP53,R158L,Likely Oncogenic
+TP53,R175C,Unknown
+TP53,R175G,Unknown
+TP53,R175H,Likely Oncogenic
+TP53,R196Q,Likely Oncogenic
+TP53,R213Q,Likely Oncogenic
+TP53,R248G,Likely Oncogenic
+TP53,R248L,Unknown
+TP53,R248Q,Likely Oncogenic
+TP53,R248W,Likely Oncogenic
+TP53,R249G,Unknown
+TP53,R249S,Likely Oncogenic
+TP53,R249T,Likely Oncogenic
+TP53,R267W,Unknown
+TP53,R273C,Likely Oncogenic
+TP53,R273H,Likely Oncogenic
+TP53,R273L,Likely Oncogenic
+TP53,R280K,Unknown
+TP53,R280T,Likely Oncogenic
+TP53,R282Q,Unknown
+TP53,R282W,Likely Oncogenic
+TP53,R306P,Likely Oncogenic
+TP53,R337H,Benign
+TP53,R342P,Unknown
+TP53,S166L,Unknown
+TP53,S240N,Unknown
+TP53,S241F,Unknown
+TP53,S313R,Unknown
+TP53,S366A,Unknown
+TP53,S378Q,Unknown
+TP53,S46E,Unknown
+TP53,T125M,Unknown
+TP53,T155I,Likely Oncogenic
+TP53,T253I,Likely Oncogenic
+TP53,T387V,Unknown
+TP53,V143A,Unknown
+TP53,V157F,Likely Oncogenic
+TP53,V173L,Likely Oncogenic
+TP53,V217M,Benign
+TP53,V272M,Unknown
+TP53,V31I,Unknown
+TP53,W146C,Likely Oncogenic
+TP53,W23R,Unknown
+TP53,W91L,Unknown
+TP53,Y126D,Likely Oncogenic
+TP53,Y163C,Likely Oncogenic
+TP53,Y220C,Likely Oncogenic
+TP53,Y220N,Likely Oncogenic
+TP53,Y220S,Unknown
+TP53,Y234C,Likely Oncogenic

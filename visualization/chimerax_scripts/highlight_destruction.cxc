@@ -1,0 +1,27 @@
+# ChimeraX Script to HIGHLIGHT the Destruction
+open data/structures/tp53_wt.cif
+open data/structures/tp53_p278s.cif
+
+# 1. Clean Setup
+matchmaker #2 to #1
+color #1 blue
+color #2 red
+set bg white
+lighting soft
+
+# 2. Highlight the specific BROKEN LOOP (Residues 278-290)
+# Show the atoms for just this loop so you can see them clearly
+show :278-290 atoms
+style :278-290 stick
+
+# 3. Mark the Mutation Site (Start of the break)
+# Make residue 278 a big sphere so you can't miss it
+style :278 sphere
+color :278 yellow
+
+# 4. Add a Label pointing to it
+label :278 text "MUTATION: Structure collapsed here" color black height 1.5 yoffset 2
+
+# 5. Zoom Camera right into the action
+view :278
+zoom 0.8        

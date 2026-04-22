@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Data & Large Files (Structural DB)
+data/structures/
+data/structures_new_temp/
+data/raw_downloads/
+data/alphafold_inputs_phase2/
+data/alphafold_upload_packs/
+*.zip
+*.tar.gz
+
+# Frontend Build
+dashboard/node_modules/
+dashboard/dist/
+dashboard/.env
+.env
+
+# Logs
+*.log
+pipeline_log.txt
+
+# OS
+.DS_Store
+Thumbs.db
+.obsidian/
+.ipynb_checkpoints/

@@ -1,0 +1,137 @@
+# Identity Map: 20 Sites, But Only Identical Structures
+# Blue = Wild Type
+# Red Spheres = ALL 20 Targets
+# Red Ribbons = Only the ones that stuck (Identical)
+open ../../data/structures/tp53_wt.cif
+color #1 blue
+show #1 cartoons
+2dlabels create title text "Blue: WildType | Red: The Identical Parts" xpos 0.5 ypos 0.9 size 30 color white
+open ../../data/structures/tp53_c135y.cif
+matchmaker #3 to #1
+show #3:135 atoms
+style #3:135 sphere
+color #3:135 red
+show #3 cartoons
+color #3 red
+open ../../data/structures/tp53_c176f.cif
+matchmaker #4 to #1
+show #4:176 atoms
+style #4:176 sphere
+color #4:176 red
+hide #4 cartoons
+open ../../data/structures/tp53_g245s.cif
+matchmaker #5 to #1
+show #5:245 atoms
+style #5:245 sphere
+color #5:245 red
+hide #5 cartoons
+open ../../data/structures/tp53_h179r.cif
+matchmaker #6 to #1
+show #6:179 atoms
+style #6:179 sphere
+color #6:179 red
+hide #6 cartoons
+open ../../data/structures/tp53_h193r.cif
+matchmaker #7 to #1
+show #7:193 atoms
+style #7:193 sphere
+color #7:193 red
+show #7 cartoons
+color #7 red
+open ../../data/structures/tp53_m237i.cif
+matchmaker #8 to #1
+show #8:237 atoms
+style #8:237 sphere
+color #8:237 red
+show #8 cartoons
+color #8 red
+open ../../data/structures/tp53_p278s.cif
+matchmaker #9 to #1
+show #9:278 atoms
+style #9:278 sphere
+color #9:278 red
+hide #9 cartoons
+open ../../data/structures/tp53_r158h.cif
+matchmaker #10 to #1
+show #10:158 atoms
+style #10:158 sphere
+color #10:158 red
+hide #10 cartoons
+open ../../data/structures/tp53_r158l.cif
+matchmaker #11 to #1
+show #11:158 atoms
+style #11:158 sphere
+color #11:158 red
+hide #11 cartoons
+open ../../data/structures/tp53_r175h.cif
+matchmaker #12 to #1
+show #12:175 atoms
+style #12:175 sphere
+color #12:175 red
+hide #12 cartoons
+open ../../data/structures/tp53_r213q.cif
+matchmaker #13 to #1
+show #13:213 atoms
+style #13:213 sphere
+color #13:213 red
+show #13 cartoons
+color #13 red
+open ../../data/structures/tp53_r248q.cif
+matchmaker #14 to #1
+show #14:248 atoms
+style #14:248 sphere
+color #14:248 red
+show #14 cartoons
+color #14 red
+open ../../data/structures/tp53_r248w.cif
+matchmaker #15 to #1
+show #15:248 atoms
+style #15:248 sphere
+color #15:248 red
+hide #15 cartoons
+open ../../data/structures/tp53_r249s.cif
+matchmaker #16 to #1
+show #16:249 atoms
+style #16:249 sphere
+color #16:249 red
+hide #16 cartoons
+open ../../data/structures/tp53_r273c.cif
+matchmaker #17 to #1
+show #17:273 atoms
+style #17:273 sphere
+color #17:273 red
+hide #17 cartoons
+open ../../data/structures/tp53_r273h.cif
+matchmaker #18 to #1
+show #18:273 atoms
+style #18:273 sphere
+color #18:273 red
+show #18 cartoons
+color #18 red
+open ../../data/structures/tp53_r273l.cif
+matchmaker #19 to #1
+show #19:273 atoms
+style #19:273 sphere
+color #19:273 red
+hide #19 cartoons
+open ../../data/structures/tp53_r282w.cif
+matchmaker #20 to #1
+show #20:282 atoms
+style #20:282 sphere
+color #20:282 red
+hide #20 cartoons
+open ../../data/structures/tp53_v157f.cif
+matchmaker #21 to #1
+show #21:157 atoms
+style #21:157 sphere
+color #21:157 red
+hide #21 cartoons
+open ../../data/structures/tp53_y220c.cif
+matchmaker #22 to #1
+show #22:220 atoms
+style #22:220 sphere
+color #22:220 red
+show #22 cartoons
+color #22 red
+view orient
+lighting soft

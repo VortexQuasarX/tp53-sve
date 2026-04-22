@@ -1,0 +1,30 @@
+Name,Position,WT_Residue,Mut_Residue,Classification,Evidence
+D21N,21,D,N,VUS,gnomAD common polymorphism
+N29S,29,N,S,Benign,Likely Benign, N-terminal disordered
+V31I,31,V,I,Benign,Benign polymorphism, TAD region
+P34L,34,P,L,Benign,Likely Benign rs77697176
+S36G,36,S,G,Benign,Likely Benign, TAD disordered
+D46E,46,D,E,Benign,Likely Benign, conservative substitution
+W49R,49,W,R,Benign,Likely Benign, TAD2 region
+P54S,54,P,S,Benign,Benign, disordered region
+A63T,63,A,T,Benign,Likely Benign rs764060847
+A71V,71,A,V,Benign,Likely Benign, PRD region
+P85S,85,P,S,Benign,Likely Benign, PRD linker
+S91L,91,S,L,Benign,Likely Benign, PRD-DBD boundary
+N210S,210,N,S,Benign,Likely Benign, DBD surface
+V217M,217,V,M,Benign,Likely Benign VUS with benign evidence
+R267W,267,R,W,Benign,Likely Benign, DBD surface loop
+E294G,294,E,G,Benign,Likely Benign, DBD C-terminus
+G302R,302,G,R,Benign,Likely Benign, NLS adjacent
+K319T,319,K,T,Benign,Likely Benign, NLS region
+D326N,326,D,N,Benign,Likely Benign, TET domain
+Q331R,331,Q,R,Benign,Likely Benign, TET domain
+E339D,339,E,D,Benign,Likely Benign, conservative, TET
+A347T,347,A,T,Benign,Likely Benign, TET domain
+L360P,360,L,P,Benign,Likely Benign, CTD disordered
+S366A,366,S,A,Benign,Likely Benign, CTD disordered
+K369R,369,K,R,Benign,Likely Benign, conservative, CTD
+P372S,372,P,S,Benign,Likely Benign, CTD disordered
+Q375H,375,Q,H,Benign,Likely Benign, CTD regulatory
+E378Q,378,E,Q,Benign,Likely Benign, CTD regulatory
+L387V,387,L,V,Benign,Likely Benign, CTD tail

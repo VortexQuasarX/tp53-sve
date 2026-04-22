@@ -1,0 +1,31 @@
+Name,Position,WT_Residue,Mut_Residue,Classification,Evidence
+F108L,108,F,L,Pathogenic,Pathogenic - DBD entry
+Y126D,126,Y,D,Pathogenic,Pathogenic - S1 strand
+W146C,146,W,C,Pathogenic,Pathogenic - core aromatic
+T155I,155,T,I,Pathogenic,Pathogenic - S4 strand
+R156H,156,R,H,Pathogenic,Pathogenic - S4 strand
+A159V,159,A,V,Pathogenic,Pathogenic - S4 anchor
+K164E,164,K,E,Pathogenic,Pathogenic - L2 loop entry
+C176R,176,C,R,Pathogenic,Pathogenic - zinc ligand
+H179Q,179,H,Q,Pathogenic,Pathogenic - zinc ligand
+E221K,221,E,K,Pathogenic,Pathogenic - beta bulge
+Y234C,234,Y,C,Pathogenic,Pathogenic - S8 strand
+C242F,242,C,F,Pathogenic,Pathogenic - zinc ligand
+I251F,251,I,F,Pathogenic,Pathogenic - L3 anchor
+T253I,253,T,I,Pathogenic,Pathogenic - H1 helix
+A276V,276,A,V,Pathogenic,Pathogenic - DNA scaffold
+S5T,5,S,T,Benign,Likely Benign - N-terminal
+L14V,14,L,V,Benign,Likely Benign - TAD1
+L25V,25,L,V,Benign,Likely Benign - TAD1
+D40N,40,D,N,Benign,Likely Benign - TAD boundary
+E56D,56,E,D,Benign,Benign conservative - TAD2
+K313R,313,K,R,Benign,Likely Benign - linker
+R341K,341,R,K,Benign,Likely Benign - conservative, TET
+E352D,352,E,D,Benign,Likely Benign - conservative, TET
+K380R,380,K,R,Benign,Likely Benign - CTD conservative
+D393E,393,D,E,Benign,Likely Benign - C-terminal
+K113N,113,K,N,VUS,VUS - DBD entry
+A187T,187,A,T,VUS,VUS - L2 loop distal
+S240N,240,S,N,VUS,VUS - L3 adjacent
+G266V,266,G,V,VUS,VUS - surface loop
+H292R,292,H,R,VUS,VUS - H2-S10 junction

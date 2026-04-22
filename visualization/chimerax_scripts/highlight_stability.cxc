@@ -1,0 +1,27 @@
+# ChimeraX Script to HIGHLIGHT Stability (R213Q)
+open data/structures/tp53_wt.cif
+open data/structures/tp53_r213q.cif
+
+# 1. Clean Setup
+matchmaker #2 to #1
+color #1 blue
+color #2 red
+set bg white
+lighting soft
+
+# 2. Highlight the "Local Zone" (Residues 210-220)
+# Show the environment around the mutation
+show :210-220 atoms
+style :210-220 stick
+
+# 3. Mark the Mutation Site (Residue 213)
+# Make it a Green Sphere (Green = Good/Stable)
+style :213 sphere
+color :213 green
+
+# 4. Add a Label
+label :213 text "MUTATION: Structure Preserved" color black height 1.5 yoffset 2
+
+# 5. Zoom Camera
+view :213
+zoom 0.8        

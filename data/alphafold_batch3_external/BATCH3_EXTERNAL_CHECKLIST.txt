@@ -1,0 +1,7 @@
+=== BATCH3_EXTERNAL UPLOAD CHECKLIST ===
+Total: 30 jobs
+
+Instructions:
+1. Go to alphafoldserver.com
+2. For each entry below:
+   - Click " New Job\n

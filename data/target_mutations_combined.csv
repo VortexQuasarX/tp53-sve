@@ -1,0 +1,51 @@
+gene,mutation,wt_residue,position,mut_residue,classification,criterion,rationale
+TP53,C135Y,C,135,Y,Likely Oncogenic,Phase1,COSMIC/TCGA hotspot
+TP53,C176F,C,176,F,Likely Oncogenic,Phase1,COSMIC/TCGA hotspot
+TP53,G245S,G,245,S,Likely Oncogenic,Phase1,COSMIC/TCGA hotspot
+TP53,H179R,H,179,R,Likely Oncogenic,Phase1,COSMIC/TCGA hotspot
+TP53,H193R,H,193,R,Likely Oncogenic,Phase1,COSMIC/TCGA hotspot
+TP53,M237I,M,237,I,Likely Oncogenic,Phase1,COSMIC/TCGA hotspot
+TP53,P278S,P,278,S,Likely Oncogenic,Phase1,COSMIC/TCGA hotspot
+TP53,R158H,R,158,H,Likely Oncogenic,Phase1,COSMIC/TCGA hotspot
+TP53,R158L,R,158,L,Likely Oncogenic,Phase1,COSMIC/TCGA hotspot
+TP53,R175H,R,175,H,Likely Oncogenic,Phase1,COSMIC/TCGA hotspot
+TP53,R213Q,R,213,Q,Likely Oncogenic,Phase1,COSMIC/TCGA hotspot
+TP53,R248Q,R,248,Q,Likely Oncogenic,Phase1,COSMIC/TCGA hotspot
+TP53,R248W,R,248,W,Likely Oncogenic,Phase1,COSMIC/TCGA hotspot
+TP53,R249S,R,249,S,Likely Oncogenic,Phase1,COSMIC/TCGA hotspot
+TP53,R273C,R,273,C,Likely Oncogenic,Phase1,COSMIC/TCGA hotspot
+TP53,R273H,R,273,H,Likely Oncogenic,Phase1,COSMIC/TCGA hotspot
+TP53,R273L,R,273,L,Likely Oncogenic,Phase1,COSMIC/TCGA hotspot
+TP53,R282W,R,282,W,Likely Oncogenic,Phase1,COSMIC/TCGA hotspot
+TP53,V157F,V,157,F,Likely Oncogenic,Phase1,COSMIC/TCGA hotspot
+TP53,Y220C,Y,220,C,Likely Oncogenic,Phase1,COSMIC/TCGA hotspot
+TP53,R175G,R,175,G,Likely Oncogenic,A,"Same position as Phase1 R175H. Glycine (smallest AA, no side chain) vs Histidine - tests size effect."
+TP53,R175C,R,175,C,Likely Oncogenic,A,Same position as Phase1 R175H. Cysteine introduces thiol group - different chemistry than Histidine.
+TP53,G245D,G,245,D,Likely Oncogenic,A,Same position as Phase1 G245S. Aspartate (charged) vs Serine (neutral) - tests charge effect.
+TP53,R282Q,R,282,Q,Likely Oncogenic,A,Same position as Phase1 R282W. Glutamine (small) vs Tryptophan (largest AA) - tests size effect.
+TP53,R248L,R,248,L,Likely Oncogenic,A,Same position as Phase1 R248Q/R248W. Leucine (hydrophobic) - tests 3rd substitution at critical DNA contact.
+TP53,Y220S,Y,220,S,Likely Oncogenic,A,"Same position as Phase1 Y220C. Serine vs Cysteine - both small, but different chemistry."
+TP53,R249G,R,249,G,Likely Oncogenic,A,Same position as Phase1 R249S. Glycine (no side chain) vs Serine - tests how minimal substitution compares.
+TP53,P72R,P,72,R,Benign,B,THE most common TP53 polymorphism. Billions of people carry it. NOT cancer-causing. KEY validation control.
+TP53,P47S,P,47,S,Benign,B,Functional polymorphism in African populations. Mild effect on apoptosis but not pathogenic.
+TP53,A189V,A,189,V,VUS,B,Variant of Uncertain Significance. Conservative substitution (Ala→Val). Tests sensitivity threshold.
+TP53,R337H,R,337,H,Low-Penetrance,B,"Brazilian founder mutation. Low cancer risk, pH-dependent tetramerization defect. Borderline case."
+TP53,K132R,K,132,R,VUS,B,"Ultra-conservative substitution (Lys→Arg, both positive charge). Should show minimal RMSD if method works."
+TP53,L344R,L,344,R,Likely Oncogenic,C,Tetramerization domain (325-355). Hydrophobic→Charged disrupts oligomerization interface.
+TP53,R342P,R,342,P,Likely Oncogenic,C,"Tetramerization domain. Proline is a helix-breaker, should disrupt alpha-helix at tetramer interface."
+TP53,L22F,L,22,F,Likely Oncogenic,C,"Transactivation Domain (TAD, 1-61). Affects transcriptional activation, NOT DNA binding."
+TP53,W23R,W,23,R,Likely Oncogenic,C,TAD domain. W23 is ESSENTIAL for MDM2 binding. Disrupts p53 degradation regulation.
+TP53,N345S,N,345,S,Likely Oncogenic,C,Tetramerization domain. Tests conservative substitution in non-DBD domain.
+TP53,K382R,K,382,R,Likely Oncogenic,C,C-terminal regulatory domain. K382 is acetylation site - post-translational regulation region.
+TP53,R280K,R,280,K,Gain-of-Function,D,Known GOF. Promotes invasion and metastasis. Conservative change (Arg→Lys) but catastrophic effect.
+TP53,V272M,V,272,M,Gain-of-Function,D,Known GOF. Enhances cancer aggressiveness. Tests if subtle substitutions can still be detected.
+TP53,D281G,D,281,G,Gain-of-Function,D,Known GOF. Glycine adds backbone flexibility. Tests if increased flexibility = detectable RMSD.
+TP53,S241F,S,241,F,Gain-of-Function,D,GOF mutation in L3 loop. Large hydrophobic substitution near DNA contact surface.
+TP53,V143A,V,143,A,Temperature-Sensitive,E,"THE classic temp-sensitive p53 mutant. Inactive at 37°C, active at 32°C. Structurally rescued by cooling."
+TP53,A138V,A,138,V,Temperature-Sensitive,E,Temperature-sensitive mutant. Can be reactivated. Tests if structural damage is indeed moderate.
+TP53,I195T,I,195,T,Temperature-Sensitive,E,Partial activity mutant near zinc-binding region. Ile→Thr changes hydrophobicity dramatically.
+TP53,E285K,E,285,K,Likely Oncogenic,F,Confirmed pathogenic but rare. Charge reversal (Glu-→Lys+). Outside classic hotspot.
+TP53,N239D,N,239,D,Likely Oncogenic,F,Rare pathogenic in beta-sandwich. Asn→Asp introduces charge. Non-hotspot structural mutation.
+TP53,T125M,T,125,M,Likely Oncogenic,F,DBD non-hotspot. Thr→Met changes polarity. Tests if non-hotspot DBD mutations are less damaging.
+TP53,L194R,L,194,R,Likely Oncogenic,F,Rare pathogenic near zinc-binding. Hydrophobic→charged in structural core. Should be very disruptive.
+TP53,N247D,N,247,D,Likely Oncogenic,F,Adjacent to hotspot R248. Tests if neighboring residue mutations cause comparable damage.

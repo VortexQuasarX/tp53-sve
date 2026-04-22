@@ -1,0 +1,51 @@
+Mutation,RMSD (Angstroms),Classification,Criterion,Position,WT_Residue,Mut_Residue
+S241F,37.8149,Gain-of-Function,D,241,S,F
+P72R,37.0815,Benign,B,72,P,R
+P278S,36.5299,Likely Oncogenic,Phase1,278,P,S
+W23R,36.4377,Likely Oncogenic,C,23,W,R
+R342P,36.0602,Likely Oncogenic,C,342,R,P
+V143A,35.4997,Temperature-Sensitive,E,143,V,A
+R249G,35.1811,Likely Oncogenic,A,249,R,G
+R249S,34.2997,Likely Oncogenic,Phase1,249,R,S
+G245S,33.4872,Likely Oncogenic,Phase1,245,G,S
+R158H,33.4055,Likely Oncogenic,Phase1,158,R,H
+N345S,33.1697,Likely Oncogenic,C,345,N,S
+R337H,32.9437,Low-Penetrance,B,337,R,H
+E285K,32.9137,Likely Oncogenic,F,285,E,K
+L194R,32.8773,Likely Oncogenic,F,194,L,R
+D281G,32.7702,Gain-of-Function,D,281,D,G
+R248W,32.6174,Likely Oncogenic,Phase1,248,R,W
+I195T,32.5522,Temperature-Sensitive,E,195,I,T
+V157F,32.2828,Likely Oncogenic,Phase1,157,V,F
+R158L,32.2115,Likely Oncogenic,Phase1,158,R,L
+G245D,32.198,Likely Oncogenic,A,245,G,D
+R175G,32.1425,Likely Oncogenic,A,175,R,G
+Y220S,32.0651,Likely Oncogenic,A,220,Y,S
+R175H,31.8538,Likely Oncogenic,Phase1,175,R,H
+K382R,31.7023,Likely Oncogenic,C,382,K,R
+R282Q,31.5187,Likely Oncogenic,A,282,R,Q
+H179R,31.2106,Likely Oncogenic,Phase1,179,H,R
+N247D,30.7411,Likely Oncogenic,F,247,N,D
+R273L,30.1157,Likely Oncogenic,Phase1,273,R,L
+L22F,29.3793,Likely Oncogenic,C,22,L,F
+R273C,29.3747,Likely Oncogenic,Phase1,273,R,C
+R282W,28.8514,Likely Oncogenic,Phase1,282,R,W
+V272M,28.2678,Gain-of-Function,D,272,V,M
+C176F,27.554,Likely Oncogenic,Phase1,176,C,F
+T125M,26.5572,Likely Oncogenic,F,125,T,M
+R175C,25.8032,Likely Oncogenic,A,175,R,C
+R280K,24.7245,Gain-of-Function,D,280,R,K
+H193R,22.7217,Likely Oncogenic,Phase1,193,H,R
+L344R,22.5967,Likely Oncogenic,C,344,L,R
+R248Q,22.192,Likely Oncogenic,Phase1,248,R,Q
+Y220C,22.1159,Likely Oncogenic,Phase1,220,Y,C
+P47S,22.0739,Benign,B,47,P,S
+N239D,22.0229,Likely Oncogenic,F,239,N,D
+R248L,21.5996,Likely Oncogenic,A,248,R,L
+R273H,20.9865,Likely Oncogenic,Phase1,273,R,H
+C135Y,20.5619,Likely Oncogenic,Phase1,135,C,Y
+M237I,19.7161,Likely Oncogenic,Phase1,237,M,I
+A189V,18.9269,VUS,B,189,A,V
+K132R,17.7668,VUS,B,132,K,R
+A138V,14.2027,Temperature-Sensitive,E,138,A,V
+R213Q,8.2168,Likely Oncogenic,Phase1,213,R,Q
