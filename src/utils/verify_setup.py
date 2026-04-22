@@ -38,7 +38,7 @@ def verify_dataset():
     if len(all_files) < 100:
         print("\n[INFO] Full Structural Database (1.3GB) is currently MISSING.")
         print("To run analysis on all 128 clinical variants, follow these steps:")
-        print("1. Download the database from: [INSERT_LINK_HERE_IN_README]")
+        print("1. Download the database from: https://github.com/VortexQuasarX/tp53-sve/releases/download/v1.0.0-data/TP53_Structural_Database.zip")
         print("2. Extract all .cif files into: data/structures/")
         print("3. Rerun this script to verify.")
     else:

@@ -61,7 +61,7 @@ python src/utils/verify_setup.py
 
 To keep this repository lightweight, the full AlphaFold3 structural database (~1.3GB) is hosted externally. 
 
-1. **Download**: [Placeholder: Link to Google Drive / Zenodo]
+1. **Download**: [TP53_Structural_Database.zip](https://github.com/VortexQuasarX/tp53-sve/releases/download/v1.0.0-data/TP53_Structural_Database.zip)
 2. **Setup**: Once downloaded, extract all `.cif` files into `data/structures/`.
 3. **Verify**: Run `python src/utils/verify_setup.py` to confirm the full database is detected.
 4. **Reproduce**: Once detected, you can rerun the full pipeline via `src/utils/run_full_pipeline.py`.
