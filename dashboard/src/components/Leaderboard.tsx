@@ -1,19 +1,19 @@
 import React from 'react'
 
 export const Leaderboard: React.FC = () => {
-  const players = [
-    { rank: 1, name: 'Aditya S', score: 98, trend: 'up' },
-    { rank: 2, name: 'Visva R', score: 95, trend: 'stable' },
-    { rank: 3, name: 'Priya M', score: 92, trend: 'up' },
-    { rank: 4, name: 'Rahul K', score: 88, trend: 'down' },
-    { rank: 5, name: 'Sneha L', score: 85, trend: 'up' },
+  const mutations = [
+    { rank: 1, name: 'R175H', score: 99.8, trend: 'up' },
+    { rank: 2, name: 'R248Q', score: 98.2, trend: 'stable' },
+    { rank: 3, name: 'G245S', score: 95.4, trend: 'up' },
+    { rank: 4, name: 'R273H', score: 92.1, trend: 'down' },
+    { rank: 5, name: 'Y220C', score: 88.5, trend: 'up' },
   ]
 
   return (
     <div className="leaderboard-module">
       <div className="module-header">
-        <h1>Global Leaderboard</h1>
-        <p>Compare your readiness score with peers across your institution.</p>
+        <h1>Pathogenicity Ranking</h1>
+        <p>A comprehensive ranking of clinical TP53 variants based on KAN-predicted structural impact.</p>
       </div>
 
       <div className="card">
@@ -22,33 +22,33 @@ export const Leaderboard: React.FC = () => {
             <thead>
               <tr>
                 <th>Rank</th>
-                <th>Candidate</th>
-                <th>Readiness Score</th>
+                <th>Mutation Variant</th>
+                <th>KAN Impact %</th>
                 <th>Trend</th>
               </tr>
             </thead>
             <tbody>
-              {players.map(p => (
-                <tr key={p.rank} className={p.name === 'Visva R' ? 'my-rank' : ''}>
+              {mutations.map(m => (
+                <tr key={m.rank} className={m.name === 'R175H' ? 'my-rank' : ''}>
                   <td>
-                    <div className={`rank-circle rank-${p.rank}`}>
-                      {p.rank}
+                    <div className={`rank-circle rank-${m.rank}`}>
+                      {m.rank}
                     </div>
                   </td>
                   <td>
                     <div className="player-cell">
-                      <div className="avatar-small">{p.name[0]}</div>
-                      <span>{p.name} {p.name === 'Visva R' && '(You)'}</span>
+                      <div className="avatar-small">🧬</div>
+                      <span>{m.name} {m.name === 'R175H' && '(Target)'}</span>
                     </div>
                   </td>
                   <td>
                     <div className="score-cell">
-                      <b>{p.score}</b>
+                      <b>{m.score}</b>
                     </div>
                   </td>
                   <td>
-                    <span className={`trend-icon ${p.trend}`}>
-                      {p.trend === 'up' ? '▲' : p.trend === 'down' ? '▼' : '▬'}
+                    <span className={`trend-icon ${m.trend}`}>
+                      {m.trend === 'up' ? '▲' : m.trend === 'down' ? '▼' : '▬'}
                     </span>
                   </td>
                 </tr>
