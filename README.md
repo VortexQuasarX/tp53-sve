@@ -48,13 +48,23 @@ pip install -r requirements.txt
 streamlit run antigravity_webapp.py
 ```
 
+## 🚀 Quick Start (Data Setup)
+
+To make it easy to start, this repository includes a **3-Variant Starter Pack** (WT, R175H, Y220C). You can run the dashboard and basic analysis immediately.
+
+To verify your setup or download the full 128-variant database:
+```bash
+python src/utils/verify_setup.py
+```
+
 ## 📦 External Data Hosting (1.3GB)
 
-To keep this repository lightweight, the full AlphaFold3 structural database (128 variants, ~1.3GB) is hosted externally. 
+To keep this repository lightweight, the full AlphaFold3 structural database (~1.3GB) is hosted externally. 
 
 1. **Download**: [Placeholder: Link to Google Drive / Zenodo]
-2. **Setup**: Extracted structural files should be placed in `data/structures/`.
-3. **Reproducibility**: Once the data is present, you can rerun the full Phase 1-3 pipeline using `src/utils/run_full_pipeline.py`.
+2. **Setup**: Once downloaded, extract all `.cif` files into `data/structures/`.
+3. **Verify**: Run `python src/utils/verify_setup.py` to confirm the full database is detected.
+4. **Reproduce**: Once detected, you can rerun the full pipeline via `src/utils/run_full_pipeline.py`.
 
 ---
 

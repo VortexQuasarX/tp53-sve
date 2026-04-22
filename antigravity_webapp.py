@@ -134,6 +134,23 @@ with st.sidebar:
     </div>
     """, unsafe_allow_html=True)
 
+    # --- NEW: Data Repository Status ---
+    st.write("---")
+    struct_files = glob.glob('data/structures/*.cif')
+    n_struct = len(struct_files)
+    status_color = "#4ade80" if n_struct >= 120 else "#fbbf24"
+    status_text = "FULL DB PRESENT" if n_struct >= 120 else f"STARTER PACK ({n_struct}/128)"
+    
+    st.markdown(f"""
+    <div style='font-size:0.7rem; color:#94a3b8; text-transform:uppercase; letter-spacing:1px; margin-bottom:8px;'>Data Repository Status</div>
+    <div style='background-color:#0f172a; padding:10px; border-radius:6px; border:1px solid #1e293b;'>
+        <div style='color:{status_color}; font-weight:700; font-size:0.8rem;'>{status_text}</div>
+        <div style='color:#64748b; font-size:0.65rem; margin-top:4px;'>
+            { "Ready for full analysis." if n_struct >= 120 else "Download 1.3GB database for full analysis capability." }
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
 
     st.write("---")
     st.markdown("""

@@ -46,6 +46,11 @@ def main():
     
     wt_file = "data/structures/tp53_wt.cif"
     
+    if not os.path.exists(wt_file):
+        print(f"\n[!] Error: Wild-type structure not found at {wt_file}")
+        print("    Please run 'python src/utils/verify_setup.py' to initialize the data directory.")
+        return
+    
     for _, row in df.iterrows():
         mutation = row['mutation']
         gene = row['gene']
@@ -59,11 +64,17 @@ def main():
                 "Classification": row['classification']
             })
             print(f"{mutation}: {rmsd:.4f} A")
+        else:
+            print(f"  - {mutation}: Structural data MISSING. Skipping analysis.")
             
     # Save Results
-    results_df = pd.DataFrame(results)
-    results_df.to_csv(output_file, index=False)
-    print(f"\n[SUCCESS] Saved scores to {output_file}")
+    if results:
+        results_df = pd.DataFrame(results)
+        results_df.to_csv(output_file, index=False)
+        print(f"\n[SUCCESS] Saved scores for {len(results)} variants to {output_file}")
+    else:
+        print("\n[!] No variants were analyzed. Ensure structural data resides in data/structures/")
+        print("    Try running 'python src/utils/verify_setup.py' for instructions.")
 
 if __name__ == "__main__":
     main()
