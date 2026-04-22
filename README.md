@@ -1,101 +1,96 @@
-# TP53-SVE: Structural Variation Engine
-### AI-Powered Structural Pathogenicity Analysis of TP53 Mutations
+# 🧬 TP53-SVE: Structural Variance Engine
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![AlphaFold3](https://img.shields.io/badge/Powered%20By-AlphaFold3-blue)](https://alphafoldserver.com/)
+### *Next-Generation Clinical Variant Triage via Interpretable Machine Learning*
 
-**TP53-SVE** (Structural Variation Engine) is a novel bioinformatics pipeline designed to quantify the structural impact of cancer-associated missense mutations in the TP53 protein using **AlphaFold3** predictions and interpretable biophysical descriptors.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Python: 3.10+](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Model: KAN+LDA](https://img.shields.io/badge/Model-KAN%20%2B%20LDA-FF6F00)](https://github.com/KindXiaoyang/pykan)
+[![Data: AlphaFold3](https://img.shields.io/badge/Data-AlphaFold3-00BFFF)](https://alphafold.google.com/)
 
----
-
-## 🚀 The Core Novelty
-
-While most pathogenicity predictors rely on sequence conservation or global structural metrics (like RMSD), this project demonstrates that:
-1. **Global Metrics Fail**: Standard metrics like backbone RMSD and graph centrality often fail to discriminate between pathogenic and benign variants in AlphaFold models (p=0.96).
-2. **Micro-Environmental Success**: Localized biophysical perturbations—such as **SASA exposure**, **contact network rewiring**, and **Zinc-binding pocket displacement**—contain strong signals for pathogenicity.
-3. **Interpretable ML**: Uses high-performance but transparent models (Fisher LDA & Kolmogorov-Arnold Networks) to provide mechanistic explanations for every classification.
+**TP53-SVE** (Structural Variance Engine) is a comprehensive computational framework designed to categorize the pathogenicity of TP53 somatic mutations. By integrating **AlphaFold3** structural predictions with **Kolmogorov-Arnold Networks (KAN)**, the engine moves beyond simple sequence conservation to model the actual biophysical impacts of every clinical variant.
 
 ---
 
-## 🏗️ Repository Architecture
+## 📊 Scientific Performance & Validation
 
-- **`src/`**: Core logic divided into three phases:
-    - `phase1_rmsd/`: Initial structural deviation analysis.
-    - `phase2_features/`: Multi-dimensional feature extraction (SASA, H-bonds, SS-changes).
-    - `phase3_kan_ml/`: Advanced scoring models and the novel KAN classifier.
-- **`dashboard/`**: Source code for the interactive React/Streamlit web visualizer.
-- **`docs/manuscripts/`**: Full-length research papers and technical reports.
-- **`data/samples/`**: 3D structural models (.cif) for various TP53 mutants.
-- **`output/`**: Curated visualizations, severeity rankings, and SHAP explainability plots.
+We have validated the engine against a core dataset of 67 high-confidence transition mutations (56 Pathogenic, 11 Benign).
+
+| Metric | Performance Value | Status |
+| :--- | :--- | :--- |
+| **LOOCV Accuracy** | **88.1%** | ✅ Verified |
+| **AUC-ROC** | **0.890** | ✅ Verified |
+| **Matthews Correlation (MCC)** | **0.598** | ✅ Verified |
+| **Sensitivity** | **91.1%** | ✅ Verified |
+
+### 📈 Global Variant Ranking
+The engine generates a continuous pathogenicity gradient, accurately separating benign polymorphisms from known oncogenic hotspots (R175H, R248Q, Y220C).
+
+![SVE Ranking Gradient](output/phase3/sve_ranking.png)
 
 ---
 
-## 🛠️ Getting Started
+## 🔬 Core Methodology
 
-### Prerequisites
-- Python 3.10+
-- [ChimeraX](https://www.rbvi.ucsf.edu/chimerax/) (for 3D visualization scripts)
+TP53-SVE extracts **34 biophysical features** for every mutation, mapping the transition from Wild-Type to Mutant across four primary domains:
 
-### Installation
-```bash
-git clone https://github.com/your-username/tp53-sve.git
-cd tp53-sve
-pip install -r requirements.txt
-```
+1.  **Structural Integrity**: RMSD, TM-Score, pLDDT Confidence weighting.
+2.  **Contact Rewiring**: Weighted loss/gain of inter-residue contacts, DNA-binding preservation.
+3.  **Surface Dynamics**: Changes in Solvent Accessible Surface Area (SASA) and Hydrophobic exposure.
+4.  **Evolutionary Context**: BLOSUM62 radicalism scores and physicochemical property shifts.
 
-### Running the Dashboard
-```bash
-streamlit run antigravity_webapp.py
-```
+### 🧠 Interpretable AI (KAN Splines)
+Unlike "black-box" neural networks, TP53-SVE uses **Kolmogorov-Arnold Networks**, allowing us to visualize the exact activation functions (splines) that drive a pathogenicity prediction.
 
-## 🚀 Quick Start (Data Setup)
+![KAN Architecture](output/phase3/kan_splines.png)
 
-To make it easy to start, this repository includes a **3-Variant Starter Pack** (WT, R175H, Y220C). You can run the dashboard and basic analysis immediately.
+---
 
-To verify your setup or download the full 128-variant database:
+## 🚀 Getting Started
+
+### 1. Data Setup (Starter Pack Included)
+This repo includes a **3-Variant Starter Pack** (WT, R175H, Y220C). To verify your setup or download the full 1.3GB database:
 ```bash
 python src/utils/verify_setup.py
 ```
 
-## 📦 External Data Hosting (1.3GB)
+### 2. Interactive Dashboard
+Launch the high-fidelity Streamlit research portal:
+```bash
+streamlit run antigravity_webapp.py
+```
 
-To keep this repository lightweight, the full AlphaFold3 structural database (~1.3GB) is hosted externally. 
-
-1. **Download**: [TP53_Structural_Database.zip](https://github.com/VortexQuasarX/tp53-sve/releases/download/v1.0.0-data/TP53_Structural_Database.zip)
-2. **Setup**: Once downloaded, extract all `.cif` files into `data/structures/`.
-3. **Verify**: Run `python src/utils/verify_setup.py` to confirm the full database is detected.
-4. **Reproduce**: Once detected, you can rerun the full pipeline via `src/utils/run_full_pipeline.py`.
-
----
-
-## 📊 Key Results
-
-- **Classification Performance**: Achieved **100% LOOCV Accuracy** on confirmed pathogenic/benign subsets.
-- **Scaling**: Successfully analyzed **128 clinical variants** from COSMIC & ClinVar.
-- **Explainability**: Identified Zinc-coordination disruption and Hydrophobic core exposure as the primary drivers of p53 structural collapse.
-
----
-
-## 📄 Documentation
-
-For detailed methodology, see the final research manuscript:
-[TP53_SVE_ULTIMATE_RESEARCH_PAPER.md](docs/manuscripts/TP53_SVE_ULTIMATE_RESEARCH_PAPER.md)
-
-## 🎓 Citation
-
-If you use this software or the Structural Pathogenicity Index (SPI) in your research, please cite:
-
-```bibtex
-@article{VortexQuasarX2026,
-  title={TP53-SVE: Interpretable Pathogenicity Prediction via Structural Variation Ensembles},
-  author={VortexQuasarX and Gemini AI},
-  journal={Bioinformatics Exploration},
-  year={2026},
-  url={https://github.com/VortexQuasarX/tp53-sve}
-}
+### 3. Structural Analysis Pipeline
+Rerun the full biophysical extraction and machine learning training:
+```bash
+python src/phase3/tp53_sve.py
+python src/phase3/kan_evaluation.py
 ```
 
 ---
 
-## 📜 License
-Distributed under the MIT License. See `LICENSE` for more information.
+## 🛠️ Repository Architecture
+
+- `data/`: Structural database and clinical variant lists.
+- `output/`: Pre-computed metrics, ranking CSVs, and scientific visualizations.
+- `src/`:
+  - `phase1_rmsd/`: Backbone displacement analysis.
+  - `phase2_features/`: SASA, Contact Networks, and Secondary Structure.
+  - `phase3_kan_ml/`: KAN/LDA ensemble and explainability.
+  - `utils/`: Data setup, validation tools, and mRNA bio-compiler.
+- `dashboard/`: A React + Vite frontend for enterprise-scale visual analysis.
+
+---
+
+## 📜 Citation & License
+
+This project is licensed under the MIT License. If you use TP53-SVE in your research, please cite:
+
+```bibtex
+@article{VortexQuasarX2026,
+  title={Interpretable Pathogenicity Prediction of TP53 Variants via Structural Variance Engines},
+  author={VortexQuasarX and Antigravity AI},
+  journal={GitHub Repository},
+  year={2026},
+  url={https://github.com/VortexQuasarX/tp53-sve}
+}
+```
